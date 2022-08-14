@@ -11,6 +11,48 @@
     <title>Java Calculator</title>
 </head>
 <body>
+
+    <div class="main-body">
+
+        <!--Outline of the calculator-->
+        <div class="calc">
+
+            <!--Calculator-->
+            <div class="output">
+                <input type="text" class="screen" id="">
+            </div>
+
+            <!--Button Arrangements-->
+            <div class="buttons">
+                <button class="btn" onclick="clear()">C</button>
+                <div class="row">
+                    <button class="btn" onclick="clicking(7)">7</button>
+                    <button class="btn" onclick="clicking(8)">8</button>
+                    <button class="btn" onclick="clicking(9)">9</button>
+                    <button class="btn" onclick="clicking('/')">÷</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clicking(7)">4</button>
+                    <button class="btn" onclick="clicking(8)">5</button>
+                    <button class="btn" onclick="clicking(9)">6</button>
+                    <button class="btn" onclick="clicking('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clicking(7)">1</button>
+                    <button class="btn" onclick="clicking(8)">2</button>
+                    <button class="btn" onclick="clicking(9)">3</button>
+                    <button class="btn" onclick="clicking('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clicking('.')">.</button>
+                    <button class="btn" onclick="clicking(0)">0</button>
+                    <button class="btn" onclick="clicking('=')">=</button>
+                    <button class="btn" onclick="clicking('+')">+</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     
     <!--Custom JavaScript-->
     <script src="script.js"></script>
